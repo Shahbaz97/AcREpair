@@ -1,0 +1,504 @@
+{% load static %}
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Al Tamir Electrical Equip. and A/c Repairing</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+
+      <link rel="stylesheet" href="{% static "css/bootstrap.min.css"%}">
+      {% comment %} cdn link fontawsom {% endcomment %}
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- style css -->
+      <link rel="stylesheet" href="{% static "css/style.css"%}">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="{% static "css/responsive.css"%}">
+      <!-- fevicon -->
+      <link rel="icon" href="{% static "images/fevicon.png"%}" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="{% static "css/jquery.mCustomScrollbar.min.css"%}">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="{% static "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"%}">
+      <link rel="stylesheet" href="{% static "https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"%}" media="screen">
+      <link rel="stylesheet" href="{% static "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"%}" integrity="sha512-XXX" crossorigin="anonymous" />
+      <!--[if lt IE 9]>
+      <script src="{% static "https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="{% static "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="{% static "images/loading.gif"%}" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="content">
+            </div>
+            <button class="overlay-btn"><a href="tel: (+971) 501200163 " class="call-btn"><img src="{% static "icon/callicon.jpeg"%}"</a></button>
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                     <div class="full">
+                        <div class="logo">
+                           <a href="index.html"><img src="{% static "images/img21.png"%}" alt="#" /> 
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 ">
+                     <h1> <span class="yellow"> Al Tamir Electrical Equip And A/c Repairing </span></h1>
+                    <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="{% url 'Index' %}">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="{% url 'Gallery' %}">Gallery</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="{% url 'About' %}">About</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="{% url 'Contact' %}">Contact Us</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav> 
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main" style>
+         <div id="banner1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#banner1" data-slide-to="0" class="active"></li>
+               <li data-target="#banner1" data-slide-to="1"></li>
+               <li data-target="#banner1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-7">
+                              <div class="text-bg">
+                                 <h1> <span class="yellow"> Al Tamir Electrical Equip & <br>A/c Repairing </span></h1>
+                                 <p>We are Air conditioning experts We provide service all days of the week for our customer. We have a strong trained and experienced team who will provide you with the best services.
+                                    We provide services in Ajman, Sharjah and Dubai.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-7">
+                              <div class="text-bg">
+                                 <h1> <span class="yellow">PI & GI Duct Works</span></h1>
+                                 <p>We also make Duct for Ductable Units and Package Units as per request of Costumers GI or PI Duct.
+                                    We have Qulified Team for assembling or dismentaling ducts for Air Conditioning Units.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-7">
+                              <div class="text-bg">
+                                 <h1> <span class="yellow"> Annual Maintenance Contract </span></h1>
+                                 <p>We provide Annual Maintenance Contract for all type of Air Conditioning 
+                                    Such as Domestic Building, Commercial Building, Shops, Resturant, Office etc.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- service section -->
+      <div class="service">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2><img src="{% static "icon/heading_icon.png"%}" alt="#"/><span class="yellow">Providing a Range</span> <br> <span class="appp_l">Commercial & Residential Services </span></h2>
+                     <p>AL Tamir Elec. Equip. & AC Repair is located in Ajman Industrial Area. We provide services in Ajman, Sharjah and Dubai.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2><img src="{% static "icon/service_icon1.png"%}" alt="#"/><span class="yellow">AC Installation</span> </h2>
+                     <p>We Install all type of Air Conditioning units 
+                        Such as Package AC, Ductable Units and Split AC. </p>
+                  </div>
+                  {% comment %} <div class="service_box">
+                     <i><img src="{% static "images/service_icon1.jpeg"%}" alt="#"/></i>
+                     <div class="service_text">
+                        <h3> AC Installation</h3>
+                        <p>We Install all type of Air Conditioning units <br>
+                           Such as Package AC, Ductable Units and Split AC. 
+                        </p>
+                     </div>
+                  </div> {% endcomment %}
+               </div>
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2><img src="{% static "icon/service_icon2.png"%}" alt="#"/><span class="yellow">AC Servicing & Repairing</span> </h2>
+                     <p>We do servicing and repairing for all type of Air Conditioning units Such as Package AC, Ductable Units and Split AC.
+                        We have very well skilled technician to repair all type of problems in Air Conditioning  Units.</p>
+                  </div>
+                  {% comment %} <div class="service_box">
+                     <i><img src="{% static "images/service_icon2.jpeg"%}" alt="#"/></i>
+                     <div class="service_text">
+                        <h3>AC Servicing & Repairing</h3>
+                        <p>We do servicing and repairing for all type of Air Conditioning units Such as Package AC, Ductable Units and Split AC.<br>
+                           We have very well skilled technician to repair all type of problems in Air Conditioning  Units.
+                        </p>
+                     </div>
+                  </div> {% endcomment %}
+               </div>
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2><img src="{% static "icon/service_icon3.png"%}" alt="#"/><span class="yellow">PI & GI Duct Works</span> </h2>
+                     <p>We also make Duct for Ductable Units and Package Units as per request of Costumers GI or PI Duct.
+                        We have Qulified Team for assembling or dismentaling ducts for Air Conditioning Units. </p>
+                  </div>
+                  {% comment %} <div class="service_box">
+                     <i><img src="{% static "images/service_icon3.jpeg"%}" alt="#"/></i>
+                     <div class="service_text">
+                        <h3>PI & GI Duct Works</h3>
+                        <p>We also make Duct for Ductable Units and Package Units as per request of Costumers GI or PI Duct.<br>
+                           We have Qulified Team for assembling or dismentaling ducts for Air Conditioning Units.
+                        </p>
+                     </div>
+                  </div> {% endcomment %}
+               </div>
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2><img src="{% static "icon/service_icon4.png"%}" alt="#"/><span class="yellow"> A.M.CONTRACT</span> </h2>
+                     <p>We provide Annual Maintenance Contract for all type of Air Conditioning 
+                        Such as Domestic Building, Commercial Building, Shops, Resturant, Office etc. </p>
+                  </div>
+                  {% comment %} <div class="service_box">
+                     <i><img src="{% static "images/service_icon4.jpeg"%}" alt="#"/></i>
+                     <div class="service_text">
+                        <h3> A.M.CONTRACT</h3>
+                        <p>We provide Annual Maintenance Contract for all type of Air Conditioning <br>
+                           Such as Domestic Building, Commercial Building, Shops, Resturant, Office etc. 
+                        </p>
+                     </div> {% endcomment %}
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end service section -->
+      {% comment %} review start {% endcomment %} 
+      <!-- about section -->
+      <div id="about" class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage">
+                     <h2> <img src="{% static "icon/heading_icon.png"%}" alt="#">About <span class="yellow">Us</span></h2>
+                     <p>AL Tamir Elec. Equip. & AC Repair, We will be deal with all type of Air Conditioning Units Installation,Repairing & Servicing 
+                        Our technician will be on time. He check your Equipment twice and twice for good condition.
+                        We provide services in Ajman, Sharjah and Dubai.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-10 offset-md-1">
+                  <div class="about_img">
+                     <figure><img src="{% static "images/images.jpg"%}" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section -->
+      <!-- Our  project section -->
+      <div id="project" class="project">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2><img src="{% static "icon/heading_icon.png"%}" alt="#"/>Gallery</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="project_box before_top">
+                     <figure><img src="{% static "images/project_img1.jpeg"%}" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="project_box margin_top1 before_bottom">
+                     <figure class="marging_top4"><img  src="{% static "images/project_img3.jpeg"%}" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="project_box before_top">
+                     <figure><img src="{% static "images/project_img2.jpeg"%}" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <a class="read_more" href="{% url 'Gallery' %}">See More</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end Our project section -->
+      <!-- testimonial section -->
+      <div id="testimonial" class="testimonial">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2><img src= "{% static "icon/heading_icon.png"%}" alt="#"/> TEAM MEMBER</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div id="myCarousel" class="carousel slide testimonial_Carousel " data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <div class="container">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption ">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="testimonial_box">
+                                          <figure><img src="{% static "images/tm.jpeg"%}" alt="#"/></figure>
+                                          <h1>RIAZ AHMAD </h1>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="testimonial_box">
+                                          <figure><img src="{% static "images/tm2.jpeg"%}" alt="#"/></figure>
+                                          <h1>KASHIF NAVEED</h1>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="testimonial_box">
+                                          <figure><img src="{%static "images/tm3.jpeg"%}" alt="#"/></figure>
+                                          <h1>MD NEYAZ KHAN</h1>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                  <i class='fa fa-angle-left'></i>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                  <i class='fa fa-angle-right'></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <!-- end testimonial section -->
+      <!-- contact section -->
+      {% comment %} <div id="contact" class="contact">
+         <div class="con_bg">
+            <div class="container-fluid">
+               <div class="row">
+                   <div class="col-md-6">
+                     <form id="request" class="main_form">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <div class="titlepage">
+                                 <h2>Contact Us</h2>
+                              </div>
+                           </div>
+                           <div class="col-md-12 ">
+                              <input class="contactus" placeholder="Name" type="type" name="Name"> 
+                           </div>
+                           <div class="col-md-12">
+                              <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number"> 
+                           </div>
+                           <div class="col-md-12">
+                              <input class="contactus" placeholder="Email" type="type" name="Email">                          
+                           </div>
+                           <div class="col-md-12">
+                              <input class="contactusmess" placeholder="Message" type="type" Message="Name">
+                           </div>
+                           <div class="col-md-12">
+                              <button class="send_btn">Send</button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="col-md-6 padding_right2">
+                     <div class="map_section">
+                        <div id="map">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> {% endcomment %}
+      <!-- end contact section -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-5">
+                     <a class="logo2" href="index.html"><img src="{%static "images/img21.png"%}" alt="#"/></a>
+                     <p>AL Tamir Elec. Equip. & AC Repair, We will be deal with all type of Air Conditioning Units Installation,Repairing & Servicing Our technician will be on time. He check your Equipment twice and twice for good condition. We provide services in Ajman, Sharjah and Dubai.
+                     </p>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="fid_box">
+                        <h3>Useful Link </h3>
+                        <ul class="use_link">
+                           <li class="nav-item">
+                              <a class="nav-link active" href="{% url 'Index' %}">Home</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="{% url 'Gallery' %}">Gallery</a>
+                           </li>
+                           <li class="nav-item ">
+                              <a class="nav-link" href="{% url 'About' %}">About</a>
+                           </li>
+                           {% comment %} <li class="active"><a href="{% url 'Index' %}">Home</a></li>
+                           <li><a href="about.html">Gallery</a></li>
+                           <li><a href="project.html">About</a></li>
+                           <li><a href="contact.html">Contact Us</a></li> {% endcomment %}
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="fid_box">
+                        <h3>Contact   </h3>
+                        <ul class="location_icon">
+                           <li><a href="Javascript:void(0)"><i class="fa fa-map-marker" aria-hidden="true"></i></a>Al Tamir Electrical Equip And A/c Repairing.<br> New Industrial Area,<br>Ajman, UAE.</li>
+                           <li><a href="Javascript:void(0)"><i class="fa fa-phone" aria-hidden="true"></i></a><br>
+                              (+971) 501200163<br> (+971) 545882592<br> (+971) 508456876
+                           </li>
+                           <li><a href="Javascript:void(0)"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> ajmanaltamir@gmail.com</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2023 All Rights Reserved.<h6>(Create by MD SHAHBAZ KHAN(Email:- aryanshahbaz67@gmail.com <br> Mob. +91 7013101458))</h6> </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="{% static "js/jquery.min.js"%}"></script>
+      <script src="{% static "js/popper.min.js"%}"></script>
+      <script src="{% static "js/bootstrap.bundle.min.js"%}"></script>
+      <script src="{% static "js/jquery-3.0.0.min.js"%}"></script>
+      <!-- sidebar -->
+      <script src="{% static "js/jquery.mCustomScrollbar.concat.min.js"%}"></script>
+      <script src="{% static "js/custom.js"%}"></script>
+      <script>
+         function openNav() {
+           document.getElementById("mySidepanel").style.width = "250px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidepanel").style.width = "0";
+         }
+      </script>
+      <script>
+         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+         // Australia.
+         function initMap() {
+           var map = new google.maps.Map(document.getElementById('map'), {
+             zoom: 11,
+             center: {lat: 40.645037, lng: -73.880224},
+             });
+         
+         var image = 'images/maps-and-flags.png';
+         var beachMarker = new google.maps.Marker({
+             position: {lat: 40.645037, lng: -73.880224},
+             map: map,
+             icon: image
+           });
+         }
+      </script>
+      <!-- google map js -->
+      <script src="{% static "https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"%}"></script>
+      <!-- end google map js --> 
+   </body>
+</html>
+
